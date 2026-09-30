@@ -1,0 +1,22 @@
+.menu {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.menu a {
+    color: blue;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.card {
+    background-color: lightgray;
+    color: blue;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 30px;
+}
