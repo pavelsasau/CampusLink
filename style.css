@@ -23,7 +23,7 @@ body {
 }
 
 .card {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
     color: #17243b;
     font-size: 20px;
     padding: 20px;
@@ -32,7 +32,7 @@ body {
     max-width: 300px;
     border: 1px solid #cbd5e1;
     box-shadow: 0 4px 16px rgba(23, 36, 59, 0.1);
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(4px);
 }
 
 .card h2,
