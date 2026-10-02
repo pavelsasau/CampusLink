@@ -35,6 +35,8 @@ body {
     border: 1px solid #cbd5e1;
     box-shadow: 0 4px 16px rgba(23, 36, 59, 0.1);
     backdrop-filter: blur(4px);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu a {
