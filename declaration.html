@@ -24,10 +24,47 @@
 
     <main>
 
-        <div>
+    <h1>Déclarer un incident</h1>
 
-        </div>
+    <form>
+            
+    <div>
+        <label for="titre">Titre de l'incident</label>
+        <input type="text" id="titre" name="titre" required>
+    </div>
 
+    <div>
+        <label for="salle">Salle concernée</label>
+        <select id="salle" name="salle">
+            <option value="">Sélectionner une salle</option>
+            <option value="B101">B101</option>
+            <option value="B102">B102</option>
+            <option value="C201">C201</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="equipement">Équipement concerné</label>
+        <input type="text" id="equipement" name="equipement">
+    </div>
+
+    <div>
+        <label for="criticite">Criticité</label>
+        <select id="criticite" name="criticite">
+            <option value="faible">Faible</option>
+            <option value="moyenne">Moyenne</option>
+            <option value="elevee">Élevée</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="description">Description du problème</label>
+        <textarea id="description" name="description" rows="6" required></textarea>
+    </div>
+
+    <button type="submit">Déclarer l'incident</button>
+
+    </form>   
     </main>
 </body>
 </html>
