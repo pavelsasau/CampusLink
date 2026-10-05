@@ -20,23 +20,16 @@
 }
 
 body {
-    isolation: isolate;
+    background-color: #e8eef5;
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     min-height: 100vh;
 
-    background-color: #e8eef5;
     color: #17243b;
     font-family: Arial, sans-serif;
-}
-
-.background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    pointer-events: none;
 }
 
 .overview {
@@ -51,6 +44,7 @@ body {
     backdrop-filter: blur(4px);
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .menu {
