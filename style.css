@@ -1,7 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 .logo {
     background-color: rgba(255, 255, 255, 0.1);
-    color: #17243b;
-    font-size: 20px;
     padding: 5px 15px;
     margin-bottom: 20px;
     border-radius: 12px;
@@ -9,6 +11,12 @@
     border: 1px solid #cbd5e1;
     box-shadow: 0 4px 16px rgba(23, 36, 59, 0.1);
     backdrop-filter: blur(4px);
+}
+
+.logo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -24,9 +32,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.menu {
+.overview {
     background-color: rgba(255, 255, 255, 0.1);
-    color: #17243b;
     font-size: 20px;
     padding: 20px;
     margin-bottom: 20px;
@@ -37,17 +44,34 @@ body {
     backdrop-filter: blur(4px);
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    max-width: 680px;
+    border: 1px solid #cbd5e1;
+    box-shadow: 0 4px 16px rgba(23, 36, 59, 0.1);
+    backdrop-filter: blur(4px);
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .menu a {
-    color: blue;
+    color: #17243b;
     font-size: 20px;
-    margin-right: 20px;
 }
 
 .card {
     background-color: rgba(255, 255, 255, 0.1);
-    color: #17243b;
     font-size: 20px;
     padding: 20px;
     margin-bottom: 20px;
@@ -63,4 +87,15 @@ body {
 .card h2,
 .card h3 {
     font-size: 30px;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.stats .card {
+    margin: 0;
 }
